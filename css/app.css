@@ -3,6 +3,9 @@
     padding: 0;
     margin: 0;
 }
+body{
+    background-color: rgb(232, 226, 226);
+}
 img{
     max-width: 100%;
     float: left;
@@ -51,6 +54,7 @@ header p{
     margin-right:30px;
     float: left;
     margin-bottom:50px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
 }
 .card::after{
     content: "";
